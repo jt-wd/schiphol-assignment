@@ -1,18 +1,11 @@
 {
+  "plugins": ["@babel/syntax-dynamic-import"],
   "presets": [
     [
-      "env",
+      "@babel/preset-env",
       {
-        "targets": {
-          "browsers": [
-            "last 2 versions",
-            "> .5%",
-            "not dead",
-            "not ie 11"
-          ]
-        }
+        "modules": false
       }
     ]
   ]
 }
-

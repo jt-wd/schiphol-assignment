@@ -1,17 +1,36 @@
 {
-  "name": "frontend-assignment",
+  "name": "schiphol-assignment",
   "version": "1.0.0",
-  "description": "A small assignment for frontend developers at Schiphol",
+  "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "serve dist"
   },
-  "author": "",
+  "author": "Jan Thijs",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^26.6.3"
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3",
+    "@webpack-cli/generators": "^2.5.0",
+    "babel-loader": "^8.2.5",
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^26.6.3",
+    "mini-css-extract-plugin": "^2.6.1",
+    "prettier": "^2.7.1",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.7.0",
+    "serve": "^14.0.1"
   }
 }
