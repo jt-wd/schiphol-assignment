@@ -1,18 +1,18 @@
 # ✈️ Flightseeker assignment
 
-To run this project first install all dependencies
+To start this project first install all dependencies
 
 ```
 npm i
 ```
 
-To start the project run
+Then you can launch the website with the command
 
 ```
 npm run start
 ```
 
-you can now visit the site at
+You can now visit the site at
 
 ```
 localhost:3000
