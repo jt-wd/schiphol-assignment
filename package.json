@@ -9,7 +9,8 @@
     "build:dev": "webpack --mode=development",
     "build:prod": "webpack --mode=production --node-env=production",
     "watch": "webpack --watch",
-    "serve": "serve dist"
+    "serve": "serve dist",
+    "start": "npm run build:prod && npm run serve"
   },
   "author": "Jan Thijs",
   "license": "ISC",
@@ -19,12 +20,14 @@
     "@webpack-cli/generators": "^2.5.0",
     "babel-loader": "^8.2.5",
     "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
     "jest": "^26.6.3",
     "mini-css-extract-plugin": "^2.6.1",
     "prettier": "^2.7.1",
     "sass": "^1.55.0",
     "sass-loader": "^13.1.0",
+    "style-loader": "^3.3.1",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.1"

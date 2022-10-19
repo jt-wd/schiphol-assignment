@@ -1,39 +1,42 @@
 .rw-fieldset {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .rw-legend {
-    color: inherit; // IE paints legends black
-    display: table; // IE doesn't wrap legends unless set to display: table
-    font-size: .875rem;
-    font-weight: normal;
-    margin-bottom: .625rem;
-    padding: 0;
+  color: inherit; // IE paints legends black
+  display: table; // IE doesn't wrap legends unless set to display: table
+  font-size: 0.875rem;
+  font-weight: normal;
+  margin-bottom: 0.625rem;
+  padding: 0;
 }
 
 .rw-legend--large {
-    font-size: 1rem;
+  font-size: 1rem;
+}
+
+.rw-input {
+  margin-bottom: 1.5rem;
+  max-width: 24.6875rem;
 }
 
 .rw-input-group {
+  .rw-input {
+    margin-bottom: 0.625rem;
 
-    .rw-input {
-        margin-bottom: .625rem;
-
-        // Fieldset margins don't collapse with their children
-        .rw-fieldset &:last-child {
-            margin-bottom: 0;
-        }
+    // Fieldset margins don't collapse with their children
+    .rw-fieldset &:last-child {
+      margin-bottom: 0;
     }
+  }
 }
 
 .rw-input-group--inline {
-
-    .rw-input {
-        @media (min-width: 40em) {
-            display: inline-block;
-            margin-bottom: 0;
-            padding-right: 2rem;
-        }
+  .rw-input {
+    @media (min-width: 40em) {
+      display: inline-block;
+      margin-bottom: 0;
+      padding-right: 2rem;
     }
+  }
 }

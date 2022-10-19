@@ -1,15 +1,19 @@
-# 🚀 Welcome to your new awesome project!
+# 🚀 Flightseeker assignment
 
-This project has been created using **webpack-cli**, you can now run
-
-```
-npm run build
-```
-
-or
+To run this project first install all dependencies
 
 ```
-yarn build
+npm i
 ```
 
-to bundle your application
+To start the project run
+
+```
+npm run start
+```
+
+you can now visit the site at
+
+```
+localhost:3000
+```

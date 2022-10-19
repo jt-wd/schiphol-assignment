@@ -9,15 +9,19 @@
     <p>Enter a destination to find flights.</p>
 
     <form action="" method="get">
-      <input
-        type="text"
-        value=""
-        name="search"
-        id="flight-seeker"
-        required
-        minlength="3"
-        autocomplete="off"
-      />
+      <div class="rw-input" data-component="rw-input-element">
+        <label for="regular" class="rw-input-label">Destination</label>
+        <input
+          class="rw-input-text"
+          autocorrect="off"
+          required
+          id="flight-seeker"
+          placeholder="Enter an airport name"
+          aria-required="true"
+          type="text"
+          minlength="3"
+        />
+      </div>
     </form>
     <table id="flight-results" style="display: none"></table>
   </body>
