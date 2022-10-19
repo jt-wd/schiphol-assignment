@@ -1,4 +1,4 @@
-# 🚀 Flightseeker assignment
+# ✈️ Flightseeker assignment
 
 To run this project first install all dependencies
 
